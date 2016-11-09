@@ -1,0 +1,16 @@
+{
+  "name": "base",
+  "description": "Example usage of eslint-config-interfirm",
+  "private": true,
+  "scripts": {
+    "lint": "eslint *.js",
+    "lint:good": "eslint good.js",
+    "lint:bad": "eslint bad.js"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-config-interfirm": "../../",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
