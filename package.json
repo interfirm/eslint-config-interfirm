@@ -12,7 +12,7 @@
     "eslint",
     "eslintconfig"
   ],
-  "main": "react.js",
+  "main": "index.js",
   "files": [
     "base.js",
     "common.js",
