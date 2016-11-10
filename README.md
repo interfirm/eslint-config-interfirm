@@ -55,3 +55,18 @@ Reactを含まないコードベース用の設定ファイルです。
 - [eslint](https://github.com/eslint/eslint)
 - [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+
+## Development
+
+今のところnpmには公開していないものの、管理のしやすさを考えてバージョニングを行っています。
+何かしら修正をした場合は、[Semantic Versioning](https://docs.npmjs.com/getting-started/semantic-versioning)に従ってバージョンを更新してください。
+npmの[versionコマンド](https://docs.npmjs.com/cli/version)を使うと、バージョン更新のコミットとGitのタグ付けを簡単に行えます。
+例えば、マイナーバージョンを上げる場合は以下のようにできます。
+
+```sh
+$ git clone https://github.com/interfirm/eslint-config-interfirm
+$ cd eslint-config-interfirm
+$ npm version minor # create a commit and tag
+$ git push origin master
+$ git push --tags
+```
