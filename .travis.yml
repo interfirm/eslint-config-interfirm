@@ -6,5 +6,11 @@ before_install:
   - yarn
 script:
   - yarn test
+deploy:
+  - provider: script
+    script: ./publish.sh
+    on:
+      branch:
+        - release
 notifications:
   email: false
