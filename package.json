@@ -18,6 +18,9 @@
     "common.js",
     "react.js"
   ],
+  "scripts": {
+    "test": "eslint -c react.js index.js"
+  },
   "peerDependencies": {
     "eslint": ">=3.9"
   },
@@ -26,5 +29,8 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1"
   }
 }
