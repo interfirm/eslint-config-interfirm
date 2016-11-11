@@ -5,16 +5,15 @@ INTERFIRMのプロジェクトで使用する[ESLintの共有設定ファイル]
 [eslint-sharable-config]: http://eslint.org/docs/developer-guide/shareable-configs
 [airbnb-packages]: https://github.com/airbnb/javascript/tree/master/packages
 
-## Usage
-
-このリポジトリはnpmに公開していないので、GitHubのリポジトリからインストールする必要があります。以下のように簡単にできます。
-また、使用する際にはESLint本体を別途インストールする必要があります。
+## Installation
 
 ```sh
-$ npm install --save-dev eslint interfirm/eslint-config-interfirm
+$ npm install --save-dev eslint eslint-config-interfirm
 # OR
-$ yarn add --dev eslint interfirm/eslint-config-interfirm
+$ yarn add --dev eslint eslint-config-interfirm
 ```
+
+## Usage
 
 ### Base + React rules (default)
 
@@ -58,7 +57,6 @@ Reactを含まないコードベース用の設定ファイルです。
 
 ## Development
 
-今のところnpmには公開していないものの、管理のしやすさを考えてバージョニングを行っています。
 何かしら修正をした場合は、[Semantic Versioning](https://docs.npmjs.com/getting-started/semantic-versioning)に従ってバージョンを更新してください。
 npmの[versionコマンド](https://docs.npmjs.com/cli/version)を使うと、バージョン更新のコミットとGitのタグ付けを簡単に行えます。
 例えば、マイナーバージョンを上げる場合は以下のようにできます。
