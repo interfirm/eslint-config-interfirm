@@ -9,8 +9,6 @@
   },
   "devDependencies": {
     "eslint": "^3.9.1",
-    "eslint-config-airbnb-base": "^10.0.1",
-    "eslint-config-interfirm": "../../",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-config-interfirm": "../../"
   }
 }
