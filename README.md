@@ -1,3 +1,5 @@
+[![NPM version][npm-image]][npm-url]
+
 # ESLint Sharable Config for [INTERFIRM](https://github.com/interfirm)
 
 INTERFIRMのプロジェクトで使用する[ESLintの共有設定ファイル][eslint-sharable-config]です。ベースとして、[Airbnbのsharable config][airbnb-packages]を使用しています。
@@ -68,3 +70,6 @@ $ npm version minor # create a commit and tag
 $ git push origin master
 $ git push --tags
 ```
+
+[npm-image]: https://img.shields.io/npm/v/eslint-config-interfirm.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/eslint-config-interfirm
