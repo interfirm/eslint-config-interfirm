@@ -21,5 +21,5 @@ module.exports = {
     }],
     "semi": ["error", "never"],
     "import/no-unresolved": "off",
-  }
+  },
 }
