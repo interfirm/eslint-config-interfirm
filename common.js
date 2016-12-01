@@ -12,6 +12,8 @@ module.exports = {
     "comma-dangle": ["error", "always-multiline"],
     "max-len": ["error", {
       "code": 100,
+      "ignoreUrls": true,
+      "ignoreRegExpLiterals": true,
       "tabWidth": 2,
     }],
     "no-prototype-builtins": "off",
