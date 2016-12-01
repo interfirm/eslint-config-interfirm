@@ -3,8 +3,8 @@ module.exports = {
     "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    }
+      "experimentalObjectRestSpread": true,
+    },
   },
 
   "rules": {
@@ -12,14 +12,15 @@ module.exports = {
     "comma-dangle": "off",
     "max-len": ["error", {
       "code": 100,
-      "tabWidth": 2
+      "tabWidth": 2,
     }],
     "no-prototype-builtins": "off",
     "no-underscore-dangle": "off",
     "quotes": ["error", "double", {
-      "avoidEscape": true
+      "avoidEscape": true,
     }],
     "semi": ["error", "never"],
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "comma-dangle": ["error", "always"],
   }
 }
