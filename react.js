@@ -1,17 +1,17 @@
 module.exports = {
-  "extends": [
+  extends: [
     "airbnb",
     "./common.js",
   ],
 
-  "rules": {
+  rules: {
     "react/forbid-prop-types": "warn",
     "react/jsx-filename-extension": ["error", {
-      "extensions": [".js"],
+      extensions: [".js"],
     }],
     "react/self-closing-comp": ["error", {
-      "component": true,
-      "html": false,
+      component: true,
+      html: false,
     }],
-  }
+  },
 }

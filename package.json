@@ -19,7 +19,7 @@
     "react.js"
   ],
   "scripts": {
-    "test": "eslint -c react.js index.js"
+    "test": "eslint --config react.js *.js"
   },
   "peerDependencies": {
     "eslint": ">=3.9"
