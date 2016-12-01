@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-interfirm",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "ESLint shareable config for INTERFIRM developers",
   "author": "interfirm",
   "license": "MIT",
