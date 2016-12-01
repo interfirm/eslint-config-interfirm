@@ -9,7 +9,7 @@ module.exports = {
 
   "rules": {
     "arrow-parens": "warn",
-    "comma-dangle": "off",
+    "comma-dangle": ["error", "always-multiline"],
     "max-len": ["error", {
       "code": 100,
       "tabWidth": 2,
@@ -21,6 +21,5 @@ module.exports = {
     }],
     "semi": ["error", "never"],
     "import/no-unresolved": "off",
-    "comma-dangle": ["error", "always"],
   }
 }
