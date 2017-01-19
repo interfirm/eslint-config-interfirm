@@ -1,4 +1,5 @@
 [![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
 
 # ESLint Sharable Config for [INTERFIRM](https://github.com/interfirm)
 
@@ -73,3 +74,5 @@ $ git push --tags
 
 [npm-image]: https://img.shields.io/npm/v/eslint-config-interfirm.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/eslint-config-interfirm
+[travis-image]: https://travis-ci.org/interfirm/eslint-config-interfirm.svg?branch=master
+[travis-url]: https://travis-ci.org/interfirm/eslint-config-interfirm
