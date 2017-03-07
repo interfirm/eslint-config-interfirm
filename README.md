@@ -1,5 +1,6 @@
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
+[![dependencies Status](https://david-dm.org/interfirm/eslint-config-interfirm/status.svg)](https://david-dm.org/interfirm/eslint-config-interfirm)
 
 # ESLint Sharable Config for [INTERFIRM](https://github.com/interfirm)
 
