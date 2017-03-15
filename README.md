@@ -1,5 +1,5 @@
-[![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
+[![NPM version](https://img.shields.io/npm/v/eslint-config-interfirm.svg)](https://www.npmjs.com/package/eslint-config-interfirm)
+[![Build Status](https://travis-ci.org/interfirm/eslint-config-interfirm.svg)](https://travis-ci.org/interfirm/eslint-config-interfirm)
 [![dependencies Status](https://david-dm.org/interfirm/eslint-config-interfirm/status.svg)](https://david-dm.org/interfirm/eslint-config-interfirm)
 
 # ESLint Sharable Config for [INTERFIRM](https://github.com/interfirm)
@@ -72,8 +72,3 @@ $ npm version minor # create a commit and tag
 $ git push origin master
 $ git push --tags
 ```
-
-[npm-image]: https://img.shields.io/npm/v/eslint-config-interfirm.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/eslint-config-interfirm
-[travis-image]: https://travis-ci.org/interfirm/eslint-config-interfirm.svg?branch=master
-[travis-url]: https://travis-ci.org/interfirm/eslint-config-interfirm
