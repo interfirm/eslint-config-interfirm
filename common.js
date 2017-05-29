@@ -27,6 +27,9 @@ module.exports = {
     }],
     "no-prototype-builtins": "off",
     "no-underscore-dangle": "off",
+    "object-shorthand": ["error", "always", {
+      "avoidQuotes": false,
+    }],
     "quotes": ["error", "double", {
       "avoidEscape": true,
     }],
