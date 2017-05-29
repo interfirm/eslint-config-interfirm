@@ -16,6 +16,9 @@ module.exports = {
       "ignoreRegExpLiterals": true,
       "tabWidth": 2,
     }],
+    "no-plusplus": ["error", {
+      "allowForLoopAfterthoughts": true,
+    }],
     "no-prototype-builtins": "off",
     "no-underscore-dangle": "off",
     "quotes": ["error", "double", {
