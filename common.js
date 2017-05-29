@@ -16,6 +16,12 @@ module.exports = {
       "ignoreRegExpLiterals": true,
       "tabWidth": 2,
     }],
+    "no-irregular-whitespace": ["error", {
+      "skipStrings": true,
+      "skipComments": true,
+      "skipRegExps": true,
+      "skipTemplates": true,
+    }],
     "no-plusplus": ["error", {
       "allowForLoopAfterthoughts": true,
     }],
