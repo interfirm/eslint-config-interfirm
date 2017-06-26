@@ -38,6 +38,7 @@ Reactを含むコードベース用の設定ファイルです。
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 - [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
+- [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)
 
 ### Base rules
 
@@ -58,6 +59,7 @@ Reactを含まないコードベース用の設定ファイルです。
 - [eslint](https://github.com/eslint/eslint)
 - [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+- [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)
 
 ## Development
 
