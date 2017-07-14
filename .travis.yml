@@ -4,7 +4,7 @@ script:
   - yarn test
 notifications:
   email: false
-  slack: interfirm:L2WhP1umnVtkeYcz6Uedkocs#developer
+  slack: interfirm:nQ2iFItAwPADePQlPgmcVE2D#developer
 deploy:
   provider: npm
   email: register@interfirm.co.jp
