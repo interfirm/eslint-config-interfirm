@@ -61,16 +61,14 @@ Reactを含まないコードベース用の設定ファイルです。
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)
 
-## Development
+## Development & Release
 
-何かしら修正をした場合は、[Semantic Versioning](https://docs.npmjs.com/getting-started/semantic-versioning)に従ってバージョンを更新してください。
-npmの[versionコマンド](https://docs.npmjs.com/cli/version)を使うと、バージョン更新のコミットとGitのタグ付けを簡単に行えます。
-例えば、マイナーバージョンを上げる場合は以下のようにできます。
+普段のコミットメッセージは[Conventional Commit](https://conventionalcommits.org)に従ってください。
 
-```sh
-$ git clone https://github.com/interfirm/eslint-config-interfirm
-$ cd eslint-config-interfirm
-$ npm version minor # create a commit and tag
-$ git push origin master
-$ git push --tags
-```
+[standard-version](https://www.npmjs.com/package/standard-version)を使っているので、リリースは以下のコマンドを実行するだけです（npmへの公開は、CIで自動的に行われます）。
+
+1. `git checkout master`
+1. `git pull`
+1. `yarn release:dry-run`
+1. `yarn release`
+1. `git push --follow-tags`

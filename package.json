@@ -20,7 +20,11 @@
     "react.js"
   ],
   "scripts": {
-    "test": "eslint *.js"
+    "test": "eslint *.js",
+    "precommit": "npm test",
+    "commitmsg": "validate-commit-msg",
+    "release": "standard-version",
+    "release:dry-run": "standard-version --dry-run"
   },
   "peerDependencies": {
     "eslint": "3 || 4"
@@ -33,6 +37,9 @@
     "eslint-plugin-react": "^7.0.1"
   },
   "devDependencies": {
-    "eslint": "^4.5.0"
+    "eslint": "^4.5.0",
+    "husky": "*",
+    "standard-version": "*",
+    "validate-commit-msg": "*"
   }
 }
