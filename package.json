@@ -23,7 +23,7 @@
     "test": "eslint *.js"
   },
   "peerDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "3 || 4"
   },
   "dependencies": {
     "eslint-config-airbnb": "^15.0.0",
@@ -33,6 +33,6 @@
     "eslint-plugin-react": "^7.0.1"
   },
   "devDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "^4.5.0"
   }
 }
