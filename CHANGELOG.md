@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.1.0"></a>
+# [4.1.0](https://github.com/interfirm/eslint-config-interfirm/compare/v4.0.0...v4.1.0) (2017-10-30)
+
+
+### Bug Fixes
+
+* update eslint-plugin-eslint-comments to v2.0.1 ([#97](https://github.com/interfirm/eslint-config-interfirm/issues/97)) ([41e202d](https://github.com/interfirm/eslint-config-interfirm/commit/41e202d))
+
+
+### Features
+
+* Yarn update on 2017-10-30 🚀 ([#96](https://github.com/interfirm/eslint-config-interfirm/issues/96)) ([65a6276](https://github.com/interfirm/eslint-config-interfirm/commit/65a6276))
+
+
+
 <a name="4.0.0"></a>
 # [4.0.0](https://github.com/interfirm/eslint-config-interfirm/compare/v3.3.0...v4.0.0) (2017-10-11)
 
