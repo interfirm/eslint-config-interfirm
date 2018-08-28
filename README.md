@@ -4,10 +4,9 @@
 
 # ESLint Sharable Config for [INTERFIRM](https://github.com/interfirm)
 
-INTERFIRMのプロジェクトで使用する[ESLintの共有設定ファイル][eslint-sharable-config]です。ベースとして、[Airbnbのsharable config][airbnb-packages]を使用しています。
+INTERFIRMのプロジェクトで使用する[ESLintの共有設定ファイル][eslint-sharable-config]です。
 
 [eslint-sharable-config]: http://eslint.org/docs/developer-guide/shareable-configs
-[airbnb-packages]: https://github.com/airbnb/javascript/tree/master/packages
 
 ## Installation
 
@@ -34,7 +33,6 @@ Reactを含むコードベース用の設定ファイルです。
 #### Used packages
 
 - [eslint](https://github.com/eslint/eslint)
-- [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 - [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
@@ -57,7 +55,6 @@ Reactを含まないコードベース用の設定ファイルです。
 #### Used packages
 
 - [eslint](https://github.com/eslint/eslint)
-- [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-plugin-eslint-comments](https://github.com/mysticatea/eslint-plugin-eslint-comments)
 

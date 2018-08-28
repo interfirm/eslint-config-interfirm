@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ["eslint-comments"],
+  plugins: ["import", "eslint-comments"],
 
   rules: {
     "arrow-parens": "warn",
@@ -45,7 +45,10 @@ module.exports = {
       },
     ],
     semi: ["error", "never"],
-    "import/no-unresolved": "off",
+
+    "import/no-useless-path-segments": "error",
+    "import/no-mutable-exports": "error",
+
     "eslint-comments/disable-enable-pair": "error",
     "eslint-comments/no-duplicate-disable": "error",
     "eslint-comments/no-unlimited-disable": "error",

@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["airbnb-base", "./common.js"],
+  extends: ["./common.js"],
 }
