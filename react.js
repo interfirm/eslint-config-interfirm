@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ["react", "jsx-a11y"],
-  extends: ["./common.js"],
+  extends: ["./base.js"],
 
   parserOptions: {
     ecmaFeatures: {
