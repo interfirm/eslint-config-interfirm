@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/interfirm/eslint-config-interfirm/compare/v4.1.0...v5.0.0) (2018-08-28)
+
+
+### Bug Fixes
+
+* Add missing parser options ([b6a887f](https://github.com/interfirm/eslint-config-interfirm/commit/b6a887f))
+
+
+### Features
+
+* Remove eslint-config-airbnb ([ef16ab5](https://github.com/interfirm/eslint-config-interfirm/commit/ef16ab5))
+
+
+
 <a name="4.1.0"></a>
 # [4.1.0](https://github.com/interfirm/eslint-config-interfirm/compare/v4.0.0...v4.1.0) (2017-10-30)
 
