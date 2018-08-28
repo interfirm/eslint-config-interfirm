@@ -1,6 +1,11 @@
 module.exports = {
   plugins: ["import", "eslint-comments"],
 
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: "module",
+  },
+
   rules: {
     "arrow-parens": "warn",
     "comma-dangle": ["error", "always-multiline"],

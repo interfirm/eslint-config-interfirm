@@ -2,6 +2,12 @@ module.exports = {
   plugins: ["react", "jsx-a11y"],
   extends: ["./common.js"],
 
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+
   rules: {
     "jsx-a11y/anchor-has-content": "error",
     "jsx-a11y/aria-role": ["error", { ignoreNonDom: false }],
