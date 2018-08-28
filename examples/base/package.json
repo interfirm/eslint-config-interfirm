@@ -5,10 +5,10 @@
   "scripts": {
     "lint": "eslint *.js",
     "lint:good": "eslint good.js",
-    "lint:bad": "eslint bad.js",
+    "lint:bad": "eslint bad.js"
   },
   "devDependencies": {
-    "eslint": "^3.9.1",
-    "eslint-config-interfirm": "../../",
+    "eslint": "5",
+    "eslint-config-interfirm": "../../"
   }
 }
