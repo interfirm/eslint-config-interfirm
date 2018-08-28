@@ -35,7 +35,9 @@
   },
   "devDependencies": {
     "eslint": "^4.8.0",
+    "eslint-config-prettier": "^3.0.1",
     "husky": "*",
+    "prettier": "^1.14.2",
     "standard-version": "*",
     "validate-commit-msg": "*"
   }
