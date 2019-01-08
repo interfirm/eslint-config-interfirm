@@ -1,6 +1,8 @@
 module.exports = {
   plugins: ["import", "eslint-comments"],
 
+  extends: ["eslint:recommended"],
+
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: "module",
@@ -33,8 +35,6 @@ module.exports = {
         allowForLoopAfterthoughts: true,
       },
     ],
-    "no-prototype-builtins": "off",
-    "no-underscore-dangle": "off",
     "object-shorthand": [
       "error",
       "always",
@@ -59,6 +59,5 @@ module.exports = {
     "eslint-comments/no-unlimited-disable": "error",
     "eslint-comments/no-unused-disable": "error",
     "eslint-comments/no-unused-enable": "error",
-    "eslint-comments/no-use": "off",
   },
 }
