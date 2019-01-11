@@ -1,10 +1,17 @@
 module.exports = {
   plugins: ["react", "jsx-a11y"],
-  extends: ["./base.js"],
+
+  extends: ["./base.js", "plugin:react/recommended"],
 
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
+    },
+  },
+
+  settings: {
+    react: {
+      version: "detect",
     },
   },
 
@@ -25,6 +32,7 @@ module.exports = {
     "jsx-a11y/heading-has-content": "error",
     "jsx-a11y/iframe-has-title": "error",
 
+    "react/display-name": "off",
     "react/forbid-prop-types": "warn",
     "react/jsx-filename-extension": [
       "error",
@@ -32,6 +40,8 @@ module.exports = {
         extensions: [".js"],
       },
     ],
+    "react/no-this-in-sfc": "off",
+    "react/prop-types": "off",
     "react/self-closing-comp": [
       "error",
       {
