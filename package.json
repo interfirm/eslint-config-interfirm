@@ -37,7 +37,7 @@
     "eslint-config-prettier": "^3.0.1",
     "husky": "*",
     "prettier": "^1.14.2",
-    "standard-version": "*",
+    "standard-version": "^6.0",
     "validate-commit-msg": "*"
   }
 }
