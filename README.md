@@ -1,5 +1,5 @@
 [![NPM version](https://img.shields.io/npm/v/eslint-config-interfirm.svg)](https://www.npmjs.com/package/eslint-config-interfirm)
-[![Build Status](https://travis-ci.org/interfirm/eslint-config-interfirm.svg)](https://travis-ci.org/interfirm/eslint-config-interfirm)
+[![CircleCI](https://circleci.com/gh/interfirm/eslint-config-interfirm.svg?style=svg)](https://circleci.com/gh/interfirm/eslint-config-interfirm)
 [![dependencies Status](https://david-dm.org/interfirm/eslint-config-interfirm/status.svg)](https://david-dm.org/interfirm/eslint-config-interfirm)
 
 # ESLint Sharable Config for [INTERFIRM](https://github.com/interfirm)
