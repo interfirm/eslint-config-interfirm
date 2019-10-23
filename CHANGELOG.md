@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.5](https://github.com/interfirm/eslint-config-interfirm/compare/v5.0.4...v5.0.5) (2019-10-23)
+
+
+
 ### [5.0.4](https://github.com/interfirm/eslint-config-interfirm/compare/v5.0.3...v5.0.4) (2019-07-16)
 
 
